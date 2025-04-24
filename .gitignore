@@ -1,0 +1,92 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# Replit specific
+.replit
+.config
+.breakpoints
+
+# Image files
+/temp
+
+# API keys and sensitive data
+.env*
+!.env.example
+*.pem
+*.key
+*.cert
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.der
+*.csr
+*.crt
+credentials*
+*credential*
+api_keys*
+*apikey*
+secrets*
+*secret*
+*token*
+*password*
+*auth*
+*login*
+*config.json
+*config.local.*
+*config.dev.*
+*config.prod.*
+*config.production.*
+.netrc
+
+# Test files that might contain sensitive data
+test-*-direct.js
+test-*-key*.js
+**/test/**/secret*
+**/test/**/*key*
+**/*test*/**/*secret*
+
+# Logs that might contain sensitive data
+**/logs/**
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backup files that might contain sensitive information
+*.bak
+*.backup
+*~
+*.swp
+*.tmp
